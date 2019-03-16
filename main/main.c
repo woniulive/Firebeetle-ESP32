@@ -1,6 +1,7 @@
 #include "freertos/FreeRTOS.h"
 #include "esp_event_loop.h"
 #include "driver/gpio.h"
+#include "battery_drv.h"
 
 void app_main(void)
 {
