@@ -8,7 +8,7 @@
 (FLASH SD3)IO10  ，              ，  IO0
            IO13  ，              ，  IO18(SPI SCK)
             IO5  ，              ，  IO23(SPI MOSI)
-            IO2  ，              ，  IO19(SPI MISO)
+(BOARD LED) IO2  ，              ，  IO19(SPI MISO)
 (FLASH CLK) IO6  ，              ，  IO21(I2C SDA)
 (FLASH SD0) IO7  ，              ，  IO22(I2C SCL)
 (FLASH SD1) IO8  ，              ，  IO14(I2S BCLK)
