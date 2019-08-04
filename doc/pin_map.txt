@@ -1,5 +1,5 @@
 
-       (RXD)IO3  ，              ，  IO36(SENSOR VP)
+       (RXD)IO3  ，              ，  IO36(SENSOR VP)(BAT VB)
        (TXD)IO1  ，              ，  IO39(SENSOR VN)
            IO25  ，              ，  IO34
            IO26  ，              ，  IO35
