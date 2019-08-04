@@ -1,0 +1,24 @@
+
+       (RXD)IO3  ，              ，  IO36(SENSOR VP)
+       (TXD)IO1  ，              ，  IO39(SENSOR VN)
+           IO25  ，              ，  IO34
+           IO26  ，              ，  IO35
+           IO27  ，              ，  IO15
+(FLASH SD2) IO9  ，              ，  NC
+(FLASH SD3)IO10  ，              ，  IO0
+           IO13  ，              ，  IO18(SPI SCK)
+            IO5  ，              ，  IO23(SPI MOSI)
+            IO2  ，              ，  IO19(SPI MISO)
+(FLASH CLK) IO6  ，              ，  IO21(I2C SDA)
+(FLASH SD0) IO7  ，              ，  IO22(I2C SCL)
+(FLASH SD1) IO8  ，              ，  IO14(I2S BCLK)
+(FLASH CMD)IO11  ，              ，  IO12(I2S MCLK)
+            GND  ，              ，  IO4 (I2S DO)
+       (NC)AREF  ，              ，  IO16(I2S DI)
+            3V3  ，              ，  IO17(I2S LRCK)
+            VCC  ，              ，  RST
+
+Notices:
+
+* Pins SCK/CLK, SDO/SD0, SDI/SD1, SHD/SD2, SWP/SD3 and SCS/CMD, namely, GPIO6 to GPIO11 are connected
+to the integrated SPI flash integrated on the module and are not recommended for other uses
