@@ -5,6 +5,8 @@
 
 void app_main(void)
 {
+    battery_gpio_init();
+
     gpio_set_direction(GPIO_NUM_2, GPIO_MODE_OUTPUT);
     int level = 0;
 
@@ -15,6 +17,7 @@ void app_main(void)
         vTaskDelay(300 / portTICK_PERIOD_MS);
         printf("Hello world\n");
         vTaskDelay(2000 / portTICK_PERIOD_MS);
+        printf("adc:%d\n",battery_adc_get_value());
     }
 }
 
